@@ -2,9 +2,6 @@ name: Apply Staging
 on:
   release:
     types: prereleased
-  push:
-    tags:
-      - applications*
 defaults:
   run:
     shell: bash
