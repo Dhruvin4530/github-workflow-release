@@ -6,7 +6,7 @@ provider "aws" {
 # configure backend
 terraform {
   backend "s3" {
-    bucket         = "dhsoni-terraform"
+    bucket         = "github-workflow-terraform"
     key            = "dev/terraform.tfstate"
     region         = "us-east-2"
     dynamodb_table = "terraform-state-lock-dynamodb"
