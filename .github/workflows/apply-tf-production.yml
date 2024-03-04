@@ -1,4 +1,4 @@
-name: Apply Staging
+name: Apply Production
 on:
   release:
     types: released
