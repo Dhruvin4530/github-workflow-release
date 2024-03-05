@@ -1,6 +1,3 @@
-# Using Data Source to get all Avalablility Zones in the Region
-data "aws_availability_zones" "availableZones" {}
-
 # Fetching Ubuntu 20.04 AMI ID
 data "aws_ami" "amazon_linux_2" {
   most_recent = true
